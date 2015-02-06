@@ -1,0 +1,29 @@
+.volunteers {
+	/* center the form on the page */
+	margin: 0 auto;
+	width: 400px;
+	/*let's add a border */
+	padding: 1em;
+	border: 1px solid #CCC;
+	border-radius: 1em;
+}
+
+div {
+	margin-top: 1em;
+}
+
+label {
+	/* align all lables and give same size */
+	display: inline-block;
+	width: 199px;
+	text-align: right;
+}
+
+input, textarea {
+	/* ensure all text fields have same font settings */
+	font: 1em sans-serif;
+
+	/* size all text fields */
+	width: 150px;
+	border: 1px solid #999;
+}
